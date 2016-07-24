@@ -1,0 +1,113 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: .3em;
+}
+
+input[type=submit]{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: .3em;
+    margin-top: 0;
+}
+
+input[type=password]{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: .3em;
+    border-bottom: solid 2px white;
+    margin-top: 0;
+    margin-left: 1em;
+}
+
+header{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1em;
+    margin: 1em auto;
+    color: white;
+    width: 36em;
+}
+
+.categoryElement{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1em;
+    margin: 1em auto;
+    color: white;
+    width: 36em;
+}
+
+#control{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1em;
+    margin: 1em auto;
+    color: white;
+    width: 36em;
+}
+
+.addLinks{
+    display: none;
+}
+
+.linkRemove:hover{
+    color: lightcoral;
+    cursor: hand;
+}
+
+.heading{
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic;
+}
+
+.link{
+    margin-left: 1em;
+}
+
+.removeLinks{
+    display: none;
+}
+
+form{
+    margin-bottom: 0;
+}
+
+body{
+    background-image: url("stardust.png");
+}
+
+table{
+    margin-bottom: 1em;
+}
+
+table input{
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: solid 2px white;
+    margin-top: 7px;
+}
+
+table input:focus{
+    background-color: rgba(255, 255, 255, .1);
+    border-color: lightcoral;
+    outline: none;
+}
+
+.boxshadow{
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4), 0 3px 5px rgba(0, 0, 0 , 0.1);
+}
